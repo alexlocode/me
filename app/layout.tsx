@@ -19,12 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
-        <footer className="p-5 md:p-10 bg-[#fafafa] text-[#3a3a3a] text-center text-base">
-          <p>© 2024 Alex Luo. All rights reserved.</p>
-        </footer>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
