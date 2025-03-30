@@ -17,10 +17,12 @@ const Home = () => {
                 Yo, I’m Alex
               </h1>
               <p className="py-4">
-                I'm a frontend engineer who loves building sleek web apps with
-                React, Next.js, and TypeScript. When I’m not coding, I’m into
-                indie music, gaming, or Netflix binges. Let’s chat tech or swap
-                recommendations!
+                {`
+                  I'm a frontend engineer who loves building sleek web apps with
+                  React, Next.js, and TypeScript. When I’m not coding, I’m into
+                  indie music, gaming, or Netflix binges. Let’s chat tech or swap
+                  recommendations!
+                `}
               </p>
             </div>
 
