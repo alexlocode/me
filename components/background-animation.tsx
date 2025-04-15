@@ -7,7 +7,7 @@ const BackgroundAnimation = () => {
         particleColors={["#ffffff", "#ffffff"]}
         particleCount={300}
         particleSpread={5}
-        speed={0.05}
+        speed={0.03}
         particleBaseSize={100}
         moveParticlesOnHover={false}
         alphaParticles={false}
